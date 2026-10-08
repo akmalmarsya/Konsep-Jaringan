@@ -122,6 +122,7 @@ plt.savefig("visualisasi_harmonisa.png", dpi=150)
 print("Gambar disimpan: visualisasi_harmonisa.png")
 plt.show()
 ```
+
 **Isi gambar yang dihasilkan:**
 ![Visualisasi Harmonisa](src/Figure_1.png)
 
