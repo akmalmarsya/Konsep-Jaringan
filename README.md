@@ -1,4 +1,4 @@
-# Data Diri
+# Tugas Mata Kuliah Konsep Jaringan
 
 | Informasi | Detail |
 | :--- | :--- |
