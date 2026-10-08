@@ -1,6 +1,6 @@
 # Tugas Mata Kuliah Konsep Jaringan
 
-## Soal 1 — Analisis Alamat IP
+## Tugas 1 — Analisis Alamat IP
 
 | Kelas | Oktet pertama | Mask default | Bagian network |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Langkah penghitungan:
 | 5 | 172.31.16.8 | B / 255.255.0.0 | 172.31.0.0 | 172.31.0.1 | 172.31.255.254 | 172.31.255.255 |
 
 
-## Tugas 3 — Visualisasi Sinyal Harmonisa 1, 3, 5, 7, 9, 10
+## Tugas 2 — Visualisasi Sinyal Harmonisa 1, 3, 5, 7, 9, 10
 
 Sinyal periodik bisa disusun dari penjumlahan beberapa sinyal sinus yang frekuensinya kelipatan bulat dari frekuensi dasar f0. Sinyal-sinyal itu disebut **harmonisa**. Harmonisa ke-n punya frekuensi n × f0, dan amplitudonya mengecil sebesar 1/n:
 
@@ -131,7 +131,7 @@ plt.show()
 * **Penjumlahan Bertahap (c):** Penambahan komponen harmonisa ganjil secara berurutan ($1 \to 1+3 \to \dots \to 1+3+5+7+9+10$) membuat gelombang semakin curam saat transisi dan semakin mendatar di area puncak serta lembah[cite: 1].
 * **Hasil Akhir vs Gelombang Persegi Ideal (d):** Gabungan seluruh sinyal memosisikan gelombang merah sangat mendekati gelombang persegi ideal (garis putus-putus abu-abu)[cite: 1]. Fluktuasi atau riak (*ripple*) pada bagian puncak terjadi karena jumlah komponen sinyal yang dijumlahkan masih terbatas[cite: 1].
 
-## Tugas 4 — Subnetting
+## Tugas 3 — Subnetting
 
 Lakukan pembagian subnet (*subnetting*) untuk setiap jaringan berikut:
 
@@ -217,7 +217,7 @@ Dari 16 subnet /20 yang tersedia, 6 subnet belum terpakai: 132.10.160.0/20 sampa
 
 Dari 8 subnet /15 yang tersedia, 2 subnet belum terpakai: 8.44.0.0/15 dan 8.46.0.0/15.
 
-## Tugas 5 — Analisis Traceroute & Mekanisme TTL
+## Tugas 4 — Analisis Traceroute & Mekanisme TTL
 
 ### a. Pengertian dan fungsi Traceroute
 
@@ -296,7 +296,7 @@ Cara membaca: angka paling kiri adalah nomor hop (nilai TTL), lalu alamat IP rou
 - RTT tinggi di satu hop belum tentu berarti jaringan lambat, karena router memberi prioritas rendah pada balasan ICMP.
 - **Kesimpulan:** TTL membatasi umur paket dan membuat router yang membuangnya mengirim ICMP Time Exceeded. Traceroute memanfaatkan hal ini dengan menaikkan TTL satu per satu, sehingga identitas setiap router di sepanjang jalur terungkap sampai tujuan tercapai.
 
-## Tugas 6 — Subnetting VLSM
+## Tugas 5 — Subnetting VLSM
 
 Sebuah kampus memiliki alokasi jaringan **10.252.108.0/24** yang akan dibagi untuk **empat segmen** dengan kebutuhan host sebagai berikut:
 
