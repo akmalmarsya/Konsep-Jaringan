@@ -123,7 +123,7 @@ print("Gambar disimpan: visualisasi_harmonisa.png")
 plt.show()
 ```
 **Isi gambar yang dihasilkan:**
-![Visualisasi Harmonisa](Figure_1.png)
+![Visualisasi Harmonisa](src/Figure_1.png)
 
 **Analisis hasil:**
 * **Komponen Harmonisa Individu (a):** Sinyal dasar ($n=1$) memiliki amplitudo terbesar dan frekuensi terendah[cite: 1]. Seiring meningkatnya nomor harmonisa ($n$), gelombang menjadi semakin rapat (frekuensi tinggi) dengan amplitudo yang semakin mengecil[cite: 1].
